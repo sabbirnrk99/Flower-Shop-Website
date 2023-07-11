@@ -309,6 +309,11 @@ body{
     flex-shrink: 0;
     border-radius: 8px;
     background: #E55473;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    
 }
 
 /* footer style */
