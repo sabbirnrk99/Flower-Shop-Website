@@ -179,7 +179,6 @@ body{
 }
 .cupone-title{
     color: #272727;
-    font-family: Lato;
     font-size: 40px;
     font-style: normal;
     font-weight: 800;
@@ -193,7 +192,6 @@ body{
     flex-shrink: 0;
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-family: Lato;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -202,6 +200,56 @@ body{
 
 .cupone-content{
     text-align: center;
+}
+
+.new-arive{
+    max-width: 1480px;
+    margin: 0px auto;
+    margin-top: 178px;
+    border-radius: 8px;
+    background: rgba(100, 243, 191, 0.171);
+    padding: 30px;
+    
+}
+
+.new-arive-contaner{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1480px;
+    margin: 0px auto;
+
+
+}
+.new-a-img{
+    align-items: center;
+    margin-left: 35px;
+}
+
+.new-a-img >img {
+    margin-left: 50px;
+    box-shadow: #1110100b 20px 20px;
+    transition: transform .2s;
+}
+
+.new-a-img >img:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+  }
+.arive-title{
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 0.3px;
+}
+
+.view-all{
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.view-all:hover{
+    color: brown;
 }
 
 .instagram {
